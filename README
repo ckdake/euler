@@ -1,5 +1,6 @@
 My Project Euler Work
 
 Solved!
-* 1 2011.09.22 - src/1.rb
-* 2 2011.09.22 - src/2.rb
+* 1 2011.09.22 - `ruby src/1.rb`
+* 2 2011.09.22 - `ruby src/2.rb`
+* 3 2011.09.22 - `ruby src/3.rb`
