@@ -28,6 +28,7 @@ def next_prime_in_stack(prev_prime, prime_stack)
     prime_stack = populate_prime_stack(prev_prime)
     prev_prime += $STACK_SIZE if prime_stack.length == 0
   end
+  puts "prime: #{prime_stack[0]}"
   prime_stack.delete_at(0)
 end
 
@@ -36,7 +37,7 @@ def max_prime_factor(number)
   max_prime_factor = 1
   pointer = 2
   
-  while (pointer < (number / 2 + 1))
+  while (pointer < Math.sqrt(number))
     if (number % pointer == 0)
       max_prime_factor = pointer
       puts "Maybe it's #{max_prime_factor}"
