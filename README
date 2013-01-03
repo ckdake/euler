@@ -6,3 +6,4 @@ Solved!
 * 3 2011.09.22 - `ruby src/3.rb` (and _much_ faster `ruby src/3.lib.rb` that uses a library to generate primes)
 * 4 2011.09.22 - `ruby src/4.rb`
 * 5 2011.09.22 - `ruby src/5.rb`
+* 6 2013.01.02 - `ruby src/6.rb` 
